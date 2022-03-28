@@ -10,18 +10,21 @@ body {
  display: flex;
  justify-content: space-between;
  color: pink;
- font-size: 20px;
- font-style: italic;
- font-weight: bold;
  font-family: 'Courier New', Courier, monospace;
  padding: 10px; 
  margin: 20px;
-}
-.header a {
-    text-decoration: none;
-}
-.header a:hover {
-    color: red;
-    background-color: black;
+ 
 }
 
+.bg-gray, .bg1, .bg2{
+    background-color:grey;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 50%;
+}
